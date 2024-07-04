@@ -29,6 +29,7 @@ SECRET_KEY = 'django-insecure-atguhdtn8c486qqnhfx7vr+b9++y00_cmiewtpd7ornfedsif2
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://first-api-ki1x.onrender.com']
 
 
 # Application definition
